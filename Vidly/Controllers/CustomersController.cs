@@ -9,6 +9,7 @@ using Vidly.ViewModels;
 
 namespace Vidly.Controllers
 {
+
     public class CustomersController : Controller
     {
         private ApplicationDbContext _context;
@@ -65,7 +66,7 @@ namespace Vidly.Controllers
             _context.SaveChanges();
             return RedirectToAction("Index","Customers");
         }
-
+        
         public ViewResult Index()
         {
             

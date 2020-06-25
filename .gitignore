@@ -192,6 +192,8 @@ PublishScripts/
 *.nuget.props
 *.nuget.targets
 
+Startup.Auth.cs
+
 # SQL Server files
 
 .mdf
